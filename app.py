@@ -25,6 +25,7 @@ def predict():
     Predict salary based on input JSON payload
     Expected keys: age, gender, country, highest_deg, coding_exp, title, company_size
     """
+    
     print("inside predict")
     try:
         data = request.get_json()
